@@ -73,7 +73,6 @@ export const Button = ({
   type,
   onClick,
   children,
-
   outlined = false,
   ...rest
 }: ButtonProps) => {

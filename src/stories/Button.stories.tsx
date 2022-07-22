@@ -25,14 +25,13 @@ export default {
 export const Default: ComponentStory<typeof Button> = args => (
   <Button {...args} />
 );
-
 Default.args = {
   children: 'Click me!',
 };
+
 export const Outlined: ComponentStory<typeof Button> = args => (
   <Button {...args} />
 );
-
 Outlined.args = {
   ...Default.args,
   outlined: true,
@@ -41,7 +40,6 @@ Outlined.args = {
 export const Disabled: ComponentStory<typeof Button> = args => (
   <Button {...args} />
 );
-
 Disabled.args = {
   ...Default.args,
   disabled: true,
